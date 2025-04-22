@@ -245,7 +245,7 @@ header .container .social i {
 
 @media(max-width: 768px) {
     .hero .container .hero-title {
-        font-size: 35px;
+        font-size: 32px;
         text-align: center;
     }
 
@@ -340,7 +340,11 @@ header .container .social i {
     color: black;
     margin-bottom: 20px;
 }
-
+@media(max-width:768px){
+    .section-desc {
+        font-size: 20px;
+    }
+}
 .all-services {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -410,6 +414,12 @@ header .container .social i {
 .all-services .services p {
     line-height: 1.5;
 }
+@media(max-width: 768px) {
+    .all-services .services p {
+        font-size: ;
+    }
+
+}
 
 /* ind services style */
 /* start about style */
@@ -436,12 +446,17 @@ header .container .social i {
     margin-bottom: 20px;
 }
 
+
 .about-us p {
     font-size: 17px;
     line-height: 1.7;
     width: 100%;
     margin-bottom: 20px;
-
+}
+@media(max-width: 768px) {
+    .about-us p {
+        font-size: 15px;
+    }
 }
 
 .about-us .about-call {
@@ -460,6 +475,7 @@ header .container .social i {
     .about-us .container {
         flex-direction: column;
         text-align: center;
+        
     }
 
     .about-info,
@@ -581,8 +597,11 @@ header .container .social i {
 .statistcs .container .stat p {
     font-size: 20px;
     font-weight: 800;
-
-
+}
+@media(max-width:768px) {
+    .statistcs .container .stat p {
+        font-size: 17px;
+    }
 }
 
 /* end statistcs */
@@ -634,6 +653,12 @@ header .container .social i {
     margin-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    
+}
+@media(max-width:768px){
+    .section-desc {
+        font-size:17px ;
+    }
 }
 
 .course-price {
@@ -754,7 +779,11 @@ hr {
     color: white;
     margin-bottom: 10px;
 }
-
+@media(max-width:768px){
+    .section-desc {
+        font-size: 15px;
+    }
+}
 .project-link {
     background-color: var(--main-color);
     color: white;
@@ -843,6 +872,11 @@ hr {
 .team-info h3 {
     color: var(--main-color);
 }
+@media(max-width:768px) {
+    .section-desc {
+        font-size:15px ;
+    }
+}
 
 /* <!-- end team section --> */
 /* <!-- start skills section --> */
@@ -923,6 +957,11 @@ hr {
 .progress .prog span:hover {
     width: 100% !important;
 
+}
+@media(max-width:768px) {
+    .section-desc {
+        font-size:15px ;
+    }
 }
 
 /* <!-- end skills section --> */
@@ -1038,6 +1077,11 @@ hr {
     scale: 1.05;
 
 }
+@media(max-width:768px) {
+    .section-desc {
+        font-size: 15px;
+    }
+}
 
 /* <!-- end pricing  section --> */
 
@@ -1113,6 +1157,11 @@ hr {
     color: var(--main-color);
     font-size: 23px;
     margin-bottom: 10px;
+}
+@media(max-width:768px) {
+    .section-desc {
+        font-size:15px ;
+    }
 }
 .testimonials .container .testimonial .title-testimoial {
     color:black;
